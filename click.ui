@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>351</width>
+    <height>314</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>FreeSans</family>
+    <pointsize>14</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: white;</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="1">
+    <widget class="QPushButton" name="pushButton">
+     <property name="minimumSize">
+      <size>
+       <width>141</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+background: qlineargradient(x1:0, y0:0, x2:1, y2:1, stop:0 #4364F7, stop:1 #6FB1FC);
+border: none;
+border-radius: 15px;
+padding: 10px;
+color: white;
+font: 11pt;
+}
+QPushButton:hover {
+background: qlineargradient(x1:0, y0:0, x2:1, y2:0, stop:0 #4364F7, stop:1 #6FB1FC);
+}
+QPushButton:pressed {
+background: qlineargradient(x1:0, y0:0, x2:1, y2:1, stop:0 #b3c1ff, stop:1 #b5e4ff);
+}</string>
+     </property>
+     <property name="text">
+      <string>Click me!</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Minimum</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>80</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="0" column="2">
+    <spacer name="horizontalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Minimum</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>80</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
